@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Flavours of Pakistan | Authentic Restaurant Experience</title>
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts: Playfair Display + Poppins for human touch -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Swiper JS for testimonial slider (real human reviews) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- link Custom Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"><i class="fas fa-utensils"></i> Flavours of Pakistan</div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#dishes">Signature Dishes</a>
+                    <a href="#testimonials">Reviews</a>
+                    <a href="#contact">Reserve</a>
+                    <button class="theme-toggle-btn" id="darkModeToggle"><i class="fas fa-moon"></i> <span
+                            id="modeText">Dark Mode</span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section with Beautiful Food Image on Right Side -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Authentic Flavours <br>from <span>Pakistan's Heart</span></h1>
+                <p>Handcrafted spices, centuries-old recipes, and a royal dining experience. Every plate tells a story
+                    of tradition and love.</p>
+                <div class="btn-group">
+                    <button class="btn-primary" id="exploreMenuBtn"><i class="fas fa-eye"></i> Explore Menu</button>
+                    <button class="btn-outline" id="bookTableHero"><i class="fas fa-calendar-alt"></i> Book a
+                        Table</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>50k+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>200+</h3>
+                        <p>Signature Dishes</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Service</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/butter-chicken.jpeg" alt="Delicious Butter Chicken">
+                <div class="floating-badge">
+                    <i class="fas fa-star"></i> Chef's Special
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Interactive Feature: Today's Orders Count (real human touch) -->
+        <div class="container">
+            <div class="live-feature">
+                <i class="fas fa-fire"></i>
+                <span><strong id="liveOrderCount">248</strong> people ordered today 🔥</span>
+                <i class="fas fa-motorcycle"></i>
+                <span>Free delivery above PKR 1500</span>
+            </div>
+        </div>
+
+        <!-- Dishes Section -->
+        <section id="dishes" class="section">
+            <div class="container">
+                <h2 class="section-title">Our <span>Signature</span> Plates</h2>
+                <p class="section-sub">Chef's special recipes passed down through generations</p>
+                <div class="dishes-grid" id="dishesGrid"></div>
+            </div>
+        </section>
+
+        <!-- Testimonials (Human-Like with Real faces) -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What our <span>Guests</span> Say</h2>
+                <p class="section-sub">Real stories, real taste — from food lovers like you</p>
+                <div class="swiper testimonialSwiper">
+                    <div class="swiper-wrapper" id="testimonialWrapper"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation Section + Fun Fact -->
+        <div class="container" id="contact">
+            <div class="reservation-section">
+                <div class="reserve-text">
+                    <h2><i class="fas fa-clock"></i> Reserve Your Table</h2>
+                    <p>Experience the royal ambiance & authentic flavors. Limited seats for dinner!</p>
+                    <p style="margin-top: 0.6rem;"><i class="fas fa-phone-alt"></i> +92 321 1234567 | Open 11am - 11pm
+                    </p>
+                </div>
+                <button class="reserve-btn" id="reserveNowBtn"><i class="fas fa-book-open"></i> Book Now</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer with Mahnoor Waheed -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3 style="font-family: 'Playfair Display';">Flavours of Pakistan</h3>
+                    <p style="margin-top: 0.5rem;"><i class="fas fa-map-marker-alt"></i> DHA Phase 5, Lahore, Pakistan
+                    </p>
+                    <p><i class="fas fa-envelope"></i> hello@flavoursofpakistan.com</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <hr style="margin: 2rem 0 1rem; border-color: rgba(255,255,255,0.1);">
+            <p style="text-align: center; font-size: 0.9rem;">© 2026 Flavours of Pakistan — Crafted with ❤️ by
+                <strong>Mahnoor Waheed</strong> | All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <div id="toastMessage" class="toast-msg">✨ Added to your order</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
