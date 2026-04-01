@@ -43,7 +43,12 @@ Built with a focus on smooth animations, interactive UI, and an engaging user ex
 
 ## 📸 Preview
 
-*Add your screenshots or GIF here (Highly Recommended 🔥)*
+### 🌞 Light Mode
+![Light Mode](./screenshots/food-light-mode.png)
+
+### 🌙 Dark Mode
+![Dark Mode](./screenshots/food-dark-mode.png)
+
 
 ---
 
