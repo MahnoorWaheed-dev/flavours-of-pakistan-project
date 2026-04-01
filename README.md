@@ -37,7 +37,7 @@ Built with a focus on smooth animations, interactive UI, and an engaging user ex
 
 ## 🌐 Live Demo
 
-👉 *Add your deployed link here*
+👉 https://mahnoorwaheed-dev.github.io/flavours-of-pakistan-project/
 
 ---
 
