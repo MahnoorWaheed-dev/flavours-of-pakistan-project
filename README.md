@@ -5,6 +5,11 @@ Built with a focus on smooth animations, interactive UI, and an engaging user ex
 
 ---
 
+### 🌐 Live Demo  
+[Click Here to Visit 🚀]( https://mahnoorwaheed-dev.github.io/flavours-of-pakistan-project/)
+
+---
+
 ## 🚀 Highlights
 
 * 🎞️ **Interactive Slider (Swiper.js)** for featured dishes
@@ -32,12 +37,6 @@ Built with a focus on smooth animations, interactive UI, and an engaging user ex
 * 🧭 Food Categories
 * 📖 Testimonial Section with slider
 * 📩 Footer
-
----
-
-## 🌐 Live Demo
-
-👉 https://mahnoorwaheed-dev.github.io/flavours-of-pakistan-project/
 
 ---
 
